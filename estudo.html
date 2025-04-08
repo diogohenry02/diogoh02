@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+     <title>perguntas</title>
+     <meta name="description" content="um quiz">
+     <link rel="stylesheet" href="Style.css">
+   </head>
+   <body>
+      <header>
+         <h1> quiz interativo</h1>
+         <p> teste seus conhecimentos</p>
+      </header>
+      <main>
+        <section>
+            <h2>sobre quiz</h2>
+            <p><b>esse quiz</b> foi desenvolvido para testar seus conhecimentos. <br> quero saber se você sabe mesmo!</p>
+            <p>voce encontrara diferentes tipos de perguntas</p>
+            <p>nao sei por que isso ta aqui</p>
+        </section>
+        <!--multipla escolha-->
+        <section>
+          <h2>pergunta 1: Como a gente se conheceu</h2>
+            <form>
+              <input type="radio" value="instagram" id="p1a" name="pergunta1">
+              <label for="p1a">instagram</label>
+              <input type="radio" value="facebook" id="p1b" name="pergunta1">
+              <label for="p1b">facebook</label>
+              <input type="radio" value="rua" id="p1c" name="pergunta1">
+              <label for="p1c">rua</label>
+              <input type="radio" value="festa" id="p1d" name="pergunta1">
+              <label for="p1d">festa</label>
+            </form>
+        </section>
+        <!--texto-->
+        <section>
+             <h2>pergunta 2: qual é meu desenho favorito</h2>
+             <form>
+               <input type="text" id="p2" name="pergunta2" placeholder="digite sua resposta">
+             </form>
+        </section>
+        <!--Pergunta 3: senha-->
+        <section>
+           <h2> pergunta 3: qual é a minha senha?</h2>
+           <form>
+             <input type="password" id="p3" name="pergunta3" placeholder="digite uma senha...">
+           </form>
+        </section>
+       <!--pergunta 4: data-->
+        <section>
+          <h2>pergunta 4:em que ano você me conheceu</h2>
+          <form> <input type="date" id="p4" name="pergunta4">
+          </form>
+        </section>
+        <!--pergunta 5: selecao multipla-->
+        <section>
+          <h2>pergunta 5: O que eu mais gosto?</h2>
+          <form>
+            <input type="checkbox" id="p5a" name="pergunta5" value="comer">
+            <label for="p5a">comer</label>
+            <input type="checkbox" id="p5b" name="pergunta5" value="dormir">
+            <label for="p5b">dormir</label>
+            <input type="checkbox" id="p5c" name="pergunta5" value="jogar">
+            <label for="p5c">jogar</label>
+            <input type="checkbox" id="p5d" name="pergunta5" value="IFBA">
+            <label for="p5d">IFBA</label>
+          </form>
+        </section>
+         <!--pergunta 6: upload de arquivos-->
+         <section>
+           <h2>pergunta 6: faça o upload de um arquivo qualquer</h2>
+           <form>
+             <input type="file" id="p6" name="pergunta6">
+           </form>
+         </section>
+         <!--pergunta 7: menu suspenso-->
+         <section>
+           <h2>pergunta 7: selecione meu veiculo favorito</h2>
+           <form>
+               <select name="pergunta7" id="p7">
+               <option value="moto">moto</option>
+               <option value="carro">carro</option>
+               <option value="aviao">aviao</option>
+               </select>
+           </form>
+         </section>
+         <!--pergunta 8: imagem-->
+         <section>
+           <h2>pergunta 8: quem é esse??</h2>
+          <figure> 
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUb6djhUArEhGCFuihYn0PutHi73_yC4XCk8fBYnAYZg&s" alt="não pegou"><br>
+             <figcaption>Na foto: contem a imagem do melhor jogador do mundo</figcaption>
+           </figure>
+           <input type="text" id="p8" name="pergunta8" placeholder="oque voce ver"> 
+         </section>
+         <!--tabela de pontuacao-->
+         <section>
+           <h2>Tabela de pontuacao</h2>
+           <table border="1">
+             <thead>
+               <tr>
+                  <th>pontuacao</th>
+                  <th>avaliacao</th>
+               </tr>
+             </thead>
+             <tbody>
+              <tr>
+                 <td>0-2</td>
+                 <td>não desista! cada tentativa é uma oportunidade de vc aprender</td>
+              </tr>
+               <tr>
+                 <td>3-4</td>
+                 <td>voce ainda precisa melhorar. que tal estudar mais?</td>
+              </tr>
+              <tr>
+                 <td>5-7</td>
+                 <td>bom! seu conhecimento</td>
+              </tr>
+              <tr>
+                 <td>8</td>
+                 <td>perfeito!</td>
+              </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2">
+                    boa sorte na proxima! estude mais para melhorar.
+                  </td>
+                </tr>
+              </tfoot>
+           </table>
+         </section>
+         <section>
+           <h2>Verifique sua resposta</h2>
+           <details> <summary>clique aqui</summary>
+           <ol>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+           </ol>
+           </datalist>
+         </section>
+         <section>
+           <h2>me diga o que vc achou</h2>
+           <form>
+             <fieldset> <legend> informacoes de contato</legend>
+             <label for="name">nome</label>
+             <input type="text" id="name" name="name"><br>
+             <label for="email">email</label>
+             <input type="email" id="email" name="email"><br>
+             <label for="comentarios">Comentarios</label><br>
+             <textarea "comentarios" id="comentarios" name="comentarios" rows="4" cols="25" placeholder="digite um comentario"></textarea>
+             <button>envie seu feedback aqui</button>
+             </fieldset>
+           </form>
+         </section>
+      </main>
+      <footer>
+        <p class="paragrafo-footer">&copy;quiz de programa</p>
+        <p class="paragrafo-footer">para ter acesso a outros quiz<a href="mais_coisas.html" target="_blank" >clique aqui <a/></p>
+      </footer>
+   </body>
+</html>

@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond
+    color #798252;
+}
+header{
+    background-color: khaki;
+    text-align: center;
+}
+main{
+    background-color: #798252;
+    color: black;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    gap:1,5px;
+}
+section{ 
+    color: black;
+    padding: 2px;
+
+}
+    input[type="radio"],[type="checkbox"] {
+        accent-color: black ;
+    }
+input[type="text"],[type="password"],[type="text"],[type="date"],{
+    
+}   
+h2{
+    color: black;
+
+}
