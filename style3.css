@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d2fa1f33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+}
+
+header {
+    margin-top: 20px;
+    color: #1a6403;
+    font-size: 3.5rem;
+    padding: 3rem 1rem;
+    background-color: #f2dad2;
+    text-align: center;
+    text-shadow: 4px 4px rgba(104, 100, 100, 0.5);
+    border-radius: 15px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+div {
+    margin-top: 40px;
+    text-align: center;
+}
+
+button {
+    background-color: #21cf4d;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 1s ease;/*efeito suave ao passar o mouse*/
+    box-shadow: 0 4px 12px 5px rgba(35, 226, 210, 0.932);
+    
+}
+
+button:hover {/*ao passar o mouse*/
+    background-color: #3e31f1;
+    transform: scale(1.5); /*serve para deixar o botao maior ao passar o mouse*/
+    transform: rotate(360deg);
+}
